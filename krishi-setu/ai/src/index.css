@@ -1,0 +1,255 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    /* Earthy Agricultural Theme */
+    --background: 45 30% 97%;
+    --foreground: 25 30% 15%;
+
+    --card: 40 25% 95%;
+    --card-foreground: 25 30% 15%;
+
+    --popover: 45 30% 97%;
+    --popover-foreground: 25 30% 15%;
+
+    /* Deep forest green - primary brand */
+    --primary: 142 45% 28%;
+    --primary-foreground: 45 30% 97%;
+
+    /* Warm wheat/amber - secondary */
+    --secondary: 38 55% 85%;
+    --secondary-foreground: 25 30% 15%;
+
+    /* Muted sage */
+    --muted: 100 15% 90%;
+    --muted-foreground: 25 15% 45%;
+
+    /* Golden amber accent */
+    --accent: 38 75% 55%;
+    --accent-foreground: 25 30% 15%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 45 30% 97%;
+
+    --border: 30 20% 85%;
+    --input: 30 20% 85%;
+    --ring: 142 45% 28%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --gradient-earth: linear-gradient(135deg, hsl(142 45% 28%) 0%, hsl(160 35% 35%) 50%, hsl(38 55% 55%) 100%);
+    --gradient-golden: linear-gradient(135deg, hsl(38 75% 55%) 0%, hsl(45 80% 60%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(40 25% 95%) 0%, hsl(45 20% 92%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(45 30% 97%) 0%, hsl(40 25% 93%) 50%, hsl(100 15% 90%) 100%);
+    
+    --shadow-soft: 0 4px 20px -4px hsl(25 30% 15% / 0.08);
+    --shadow-card: 0 8px 32px -8px hsl(25 30% 15% / 0.12);
+    --shadow-elevated: 0 16px 48px -12px hsl(25 30% 15% / 0.18);
+    --shadow-glow-primary: 0 0 40px hsl(142 45% 28% / 0.25);
+    --shadow-glow-accent: 0 0 40px hsl(38 75% 55% / 0.3);
+
+    /* Sidebar */
+    --sidebar-background: 40 25% 95%;
+    --sidebar-foreground: 25 30% 15%;
+    --sidebar-primary: 142 45% 28%;
+    --sidebar-primary-foreground: 45 30% 97%;
+    --sidebar-accent: 38 55% 85%;
+    --sidebar-accent-foreground: 25 30% 15%;
+    --sidebar-border: 30 20% 85%;
+    --sidebar-ring: 142 45% 28%;
+
+    /* Quality rating colors */
+    --quality-excellent: 142 60% 40%;
+    --quality-good: 90 50% 45%;
+    --quality-fair: 45 70% 50%;
+    --quality-poor: 0 65% 50%;
+  }
+
+  .dark {
+    --background: 25 25% 8%;
+    --foreground: 40 20% 92%;
+
+    --card: 25 20% 12%;
+    --card-foreground: 40 20% 92%;
+
+    --popover: 25 25% 8%;
+    --popover-foreground: 40 20% 92%;
+
+    --primary: 142 50% 45%;
+    --primary-foreground: 25 25% 8%;
+
+    --secondary: 30 25% 20%;
+    --secondary-foreground: 40 20% 92%;
+
+    --muted: 30 15% 18%;
+    --muted-foreground: 30 10% 60%;
+
+    --accent: 38 65% 50%;
+    --accent-foreground: 25 25% 8%;
+
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 40 20% 92%;
+
+    --border: 30 15% 20%;
+    --input: 30 15% 20%;
+    --ring: 142 50% 45%;
+
+    --sidebar-background: 25 20% 10%;
+    --sidebar-foreground: 40 20% 92%;
+    --sidebar-primary: 142 50% 45%;
+    --sidebar-primary-foreground: 25 25% 8%;
+    --sidebar-accent: 30 25% 18%;
+    --sidebar-accent-foreground: 40 20% 92%;
+    --sidebar-border: 30 15% 18%;
+    --sidebar-ring: 142 50% 45%;
+
+    --quality-excellent: 142 55% 50%;
+    --quality-good: 90 45% 55%;
+    --quality-fair: 45 65% 55%;
+    --quality-poor: 0 60% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .font-sans {
+    font-family: 'DM Sans', system-ui, sans-serif;
+  }
+  
+  .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .text-gradient-earth {
+    background: var(--gradient-earth);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-gradient-earth {
+    background: var(--gradient-earth);
+  }
+
+  .bg-gradient-golden {
+    background: var(--gradient-golden);
+  }
+
+  .bg-gradient-card {
+    background: var(--gradient-card);
+  }
+
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .shadow-glow-primary {
+    box-shadow: var(--shadow-glow-primary);
+  }
+
+  .shadow-glow-accent {
+    box-shadow: var(--shadow-glow-accent);
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-soft {
+    animation: pulse-soft 3s ease-in-out infinite;
+  }
+
+  .animate-shimmer {
+    animation: shimmer 2s linear infinite;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Upload zone animations */
+.upload-zone {
+  @apply relative overflow-hidden transition-all duration-300;
+}
+
+.upload-zone::before {
+  content: '';
+  @apply absolute inset-0 opacity-0 transition-opacity duration-300;
+  background: linear-gradient(135deg, hsl(142 45% 28% / 0.05) 0%, hsl(38 75% 55% / 0.05) 100%);
+}
+
+.upload-zone:hover::before,
+.upload-zone.dragging::before {
+  @apply opacity-100;
+}
+
+/* Quality badge styles */
+.quality-excellent {
+  @apply bg-[hsl(var(--quality-excellent))] text-white;
+}
+
+.quality-good {
+  @apply bg-[hsl(var(--quality-good))] text-white;
+}
+
+.quality-fair {
+  @apply bg-[hsl(var(--quality-fair))] text-foreground;
+}
+
+.quality-poor {
+  @apply bg-[hsl(var(--quality-poor))] text-white;
+}

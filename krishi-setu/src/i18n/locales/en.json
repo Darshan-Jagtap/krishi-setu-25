@@ -1,0 +1,716 @@
+{
+    "hero": {
+        "badge": "INNOVATION GROWS HERE",
+        "title": "Revolutionizing Oilseed Trading with AI",
+        "subtitle": "Connect directly with oilseed farmers through our blockchain-powered platform. Experience transparent trading, AI quality assessment, and secure transactions for mustard, groundnut, sunflower, and more.",
+        "getStarted": "Get Started",
+        "signIn": "Sign In",
+        "imageAlt": "Oilseed farming and trading platform"
+    },
+    "farmerDashboard": {
+        "welcome": "Welcome",
+        "subtitle": "Real-time farm management and marketplace insights",
+        "lastUpdated": "Last updated",
+        "refresh": "Refresh",
+        "listNewProduct": "List New Product",
+        "loadingDashboard": "Loading dashboard...",
+        "dashboardUpdated": "Dashboard Updated",
+        "latestDataLoaded": "Latest data loaded successfully",
+        "errorLoadingData": "Failed to load dashboard data",
+        "metrics": {
+            "totalRevenue": "Total Revenue",
+            "activeListings": "Active Listings",
+            "avgPricePerQuintal": "Avg Price/Quintal",
+            "pendingOrders": "Pending Orders",
+            "totalProducts": "total products",
+            "totalOrders": "total orders",
+            "fromLastMonth": "from last month",
+            "acrossAllProducts": "Across all products"
+        },
+        "tabs": {
+            "overview": "Overview",
+            "recentOrders": "Recent Orders",
+            "topProducts": "Top Products",
+            "aiAnalysis": "AI Analysis"
+        },
+        "charts": {
+            "revenueTrend": "Revenue Trend",
+            "revenueTrendDesc": "Monthly revenue over the last 6 months",
+            "orderStatusDistribution": "Order Status Distribution",
+            "orderStatusDesc": "Breakdown of orders by status",
+            "noRevenueData": "No revenue data available",
+            "noOrderData": "No order data available"
+        },
+        "orders": {
+            "title": "Recent Orders",
+            "description": "Latest orders from buyers",
+            "buyer": "Buyer",
+            "qty": "Qty",
+            "noRecentOrders": "No recent orders",
+            "sold": "sold"
+        },
+        "products": {
+            "title": "Top Performing Products",
+            "description": "Your best-selling products",
+            "noProductData": "No product data available"
+        },
+        "aiAnalysis": {
+            "title": "AI Image Analysis",
+            "description": "Upload oilseed images for quality assessment",
+            "uploadImage": "Upload Oilseed Image",
+            "clickToBrowse": "Click to browse or drag and drop",
+            "analyzingImage": "Analyzing image...",
+            "quality": "Quality",
+            "predictedPrice": "Predicted Price",
+            "aiConfidence": "AI Confidence",
+            "recommendations": "AI Recommendations",
+            "recommendationsDesc": "Smart insights based on analysis",
+            "optimalHarvestTime": "Optimal Harvest Time",
+            "marketPrice": "Market Price",
+            "storageAdvice": "Storage Advice",
+            "uploadToGetRecommendations": "Upload an image to get AI recommendations"
+        },
+        "quickActions": {
+            "title": "Quick Actions",
+            "myListings": "My Listings",
+            "viewOrders": "View Orders",
+            "marketAnalysis": "Market Analysis",
+            "refreshData": "Refresh Data"
+        },
+        "timeAgo": {
+            "minutesAgo": "m ago",
+            "hoursAgo": "h ago",
+            "daysAgo": "d ago"
+        }
+    },
+    "features": {
+        "cultivation": {
+            "title": "Oilseed Cultivation",
+            "description": "Modern techniques and best practices for cultivating high-quality oilseed crops efficiently."
+        },
+        "processing": {
+            "title": "Oilseed Processing",
+            "description": "Advanced processing methods to extract premium quality oils from various oilseed varieties."
+        },
+        "varieties": {
+            "title": "Oilseed Varieties",
+            "description": "Comprehensive information about different oilseed types including mustard, groundnut, and sunflower."
+        },
+        "quality": {
+            "title": "Quality Assurance",
+            "description": "Rigorous testing and certification processes to ensure the highest quality oilseed products."
+        }
+    },
+    "stats": {
+        "badge": "Who We Are",
+        "title": "Transforming Oilseed Trading with AI and Blockchain",
+        "description": "Our revolutionary platform combines cutting-edge AI technology with blockchain security to create the future of oilseed trading. Experience intelligent quality assessment, transparent supply chains, and secure smart contracts that connect farmers directly with buyers. Join us in building a more efficient and trustworthy agricultural ecosystem powered by innovation.",
+        "imageAlt": "Modern farming technology"
+    },
+    "services": {
+        "badge": "Our Services",
+        "title": "Best Agriculture Services",
+        "marketAnalysis": {
+            "title": "Oilseed Market Analysis",
+            "category": "MARKET DATA",
+            "description": "Real-time market prices and trends for mustard, groundnut, sunflower, and other oilseed commodities."
+        },
+        "tradingPlatform": {
+            "title": "Oilseed Trading Platform",
+            "category": "TRADING",
+            "description": "Connect directly with verified oilseed farmers and traders for secure blockchain-based transactions."
+        },
+        "qualityStandards": {
+            "title": "Oilseed Quality Standards",
+            "category": "QUALITY ASSURANCE",
+            "description": "AI-powered quality assessment and certification for premium oilseed products with detailed grading reports."
+        }
+    },
+    "common": {
+        "welcome": "Welcome",
+        "login": "Login",
+        "logout": "Logout",
+        "signup": "Sign Up",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "search": "Search",
+        "filter": "Filter",
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "close": "Close",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "confirm": "Confirm",
+        "view": "View",
+        "download": "Download",
+        "upload": "Upload",
+        "select": "Select",
+        "all": "All",
+        "none": "None"
+    },
+    "navigation": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "marketplace": "Marketplace",
+        "transactions": "Transactions",
+        "listings": "My Listings",
+        "exports": "Export Opportunities",
+        "settings": "Settings",
+        "carbonCredits": "Carbon Credits",
+        "analytics": "Analytics",
+        "orders": "Orders",
+        "suppliers": "Suppliers",
+        "favorites": "Favorites",
+        "notifications": "Notifications",
+        "members": "Members",
+        "payments": "Payments"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "overview": "Overview",
+        "statistics": "Statistics",
+        "recentActivity": "Recent Activity",
+        "quickActions": "Quick Actions",
+        "totalRevenue": "Total Revenue",
+        "totalOrders": "Total Orders",
+        "activeListings": "Active Listings",
+        "pendingOrders": "Pending Orders",
+        "completedOrders": "Completed Orders",
+        "revenue": "Revenue",
+        "growth": "Growth",
+        "thisMonth": "This Month",
+        "lastMonth": "Last Month",
+        "viewAll": "View All",
+        "noData": "No data available"
+    },
+    "marketplace": {
+        "title": "Marketplace",
+        "searchProducts": "Search products...",
+        "filterByCategory": "Filter by Category",
+        "sortBy": "Sort By",
+        "priceRange": "Price Range",
+        "location": "Location",
+        "quality": "Quality",
+        "quantity": "Quantity",
+        "price": "Price",
+        "perKg": "per kg",
+        "perTon": "per ton",
+        "addToCart": "Add to Cart",
+        "buyNow": "Buy Now",
+        "productDetails": "Product Details",
+        "seller": "Seller",
+        "rating": "Rating",
+        "reviews": "Reviews",
+        "availability": "Availability",
+        "inStock": "In Stock",
+        "outOfStock": "Out of Stock",
+        "category": "Category",
+        "description": "Description"
+    },
+    "transactions": {
+        "title": "Transactions",
+        "transactionId": "Transaction ID",
+        "date": "Date",
+        "amount": "Amount",
+        "status": "Status",
+        "buyer": "Buyer",
+        "seller": "Seller",
+        "product": "Product",
+        "pending": "Pending",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "inTransit": "In Transit",
+        "delivered": "Delivered",
+        "viewDetails": "View Details",
+        "trackOrder": "Track Order",
+        "invoice": "Invoice",
+        "shipProduct": "Ship Product",
+        "markAsDelivered": "Mark as Delivered",
+        "confirmShipment": "Confirm Shipment",
+        "confirmDelivery": "Confirm Delivery"
+    },
+    "listings": {
+        "title": "My Listings",
+        "addListing": "Add Listing",
+        "editListing": "Edit Listing",
+        "deleteListing": "Delete Listing",
+        "productName": "Product Name",
+        "productImage": "Product Image",
+        "price": "Price",
+        "quantity": "Quantity",
+        "unit": "Unit",
+        "description": "Description",
+        "category": "Category",
+        "location": "Location",
+        "active": "Active",
+        "inactive": "Inactive",
+        "draft": "Draft",
+        "published": "Published",
+        "views": "Views",
+        "inquiries": "Inquiries"
+    },
+    "auth": {
+        "signIn": "Sign In",
+        "signUp": "Sign Up",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "forgotPassword": "Forgot Password?",
+        "resetPassword": "Reset Password",
+        "rememberMe": "Remember Me",
+        "dontHaveAccount": "Don't have an account?",
+        "alreadyHaveAccount": "Already have an account?",
+        "createAccount": "Create Account",
+        "fullName": "Full Name",
+        "phoneNumber": "Phone Number",
+        "role": "Role",
+        "farmer": "Farmer",
+        "buyer": "Buyer",
+        "processor": "Processor",
+        "fpo": "FPO (Farmer Producer Organization)",
+        "selectRole": "Select your role"
+    },
+    "settings": {
+        "title": "Settings",
+        "profile": "Profile",
+        "account": "Account",
+        "preferences": "Preferences",
+        "language": "Language",
+        "notifications": "Notifications",
+        "privacy": "Privacy",
+        "security": "Security",
+        "changePassword": "Change Password",
+        "updateProfile": "Update Profile",
+        "emailNotifications": "Email Notifications",
+        "pushNotifications": "Push Notifications",
+        "smsNotifications": "SMS Notifications",
+        "darkMode": "Dark Mode",
+        "lightMode": "Light Mode",
+        "theme": "Theme"
+    },
+    "carbonCredits": {
+        "title": "Carbon Credits",
+        "totalCredits": "Total Credits",
+        "availableCredits": "Available Credits",
+        "earnedCredits": "Earned Credits",
+        "redeemedCredits": "Redeemed Credits",
+        "earnCredits": "Earn Credits",
+        "redeemCredits": "Redeem Credits",
+        "creditHistory": "Credit History",
+        "sustainablePractices": "Sustainable Practices",
+        "environmentalImpact": "Environmental Impact"
+    },
+    "smartContract": {
+        "title": "Smart Contract",
+        "contractId": "Contract ID",
+        "createContract": "Create Contract",
+        "viewContract": "View Contract",
+        "contractDetails": "Contract Details",
+        "terms": "Terms & Conditions",
+        "parties": "Parties",
+        "status": "Status",
+        "active": "Active",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "blockchainVerified": "Blockchain Verified",
+        "transactionHash": "Transaction Hash"
+    },
+    "iot": {
+        "title": "IoT Monitoring",
+        "temperature": "Temperature",
+        "humidity": "Humidity",
+        "quality": "Quality",
+        "qualityIndex": "Quality Index",
+        "sensorData": "Sensor Data",
+        "realTimeMonitoring": "Real-time Monitoring",
+        "alerts": "Alerts",
+        "deviceStatus": "Device Status",
+        "online": "Online",
+        "offline": "Offline"
+    },
+    "payment": {
+        "title": "Payment",
+        "paymentMethod": "Payment Method",
+        "cardNumber": "Card Number",
+        "expiryDate": "Expiry Date",
+        "cvv": "CVV",
+        "billingAddress": "Billing Address",
+        "payNow": "Pay Now",
+        "paymentSuccessful": "Payment Successful",
+        "paymentFailed": "Payment Failed",
+        "processingPayment": "Processing Payment...",
+        "totalAmount": "Total Amount",
+        "subtotal": "Subtotal",
+        "tax": "Tax",
+        "shippingFee": "Shipping Fee",
+        "discount": "Discount"
+    },
+    "export": {
+        "title": "Export Opportunities",
+        "internationalMarkets": "International Markets",
+        "exportRequirements": "Export Requirements",
+        "certifications": "Certifications",
+        "documentation": "Documentation",
+        "shippingOptions": "Shipping Options",
+        "customsClearance": "Customs Clearance",
+        "exportVolume": "Export Volume",
+        "targetMarkets": "Target Markets"
+    },
+    "fpo": {
+        "title": "FPO Dashboard",
+        "members": "Members",
+        "totalMembers": "Total Members",
+        "activeFarmers": "Active Farmers",
+        "collectiveRevenue": "Collective Revenue",
+        "memberAnalytics": "Member Analytics",
+        "paymentDistribution": "Payment Distribution",
+        "addMember": "Add Member",
+        "memberDetails": "Member Details",
+        "distributionHistory": "Distribution History"
+    },
+    "analytics": {
+        "title": "Analytics",
+        "salesTrend": "Sales Trend",
+        "revenueTrend": "Revenue Trend",
+        "topProducts": "Top Products",
+        "topBuyers": "Top Buyers",
+        "performanceMetrics": "Performance Metrics",
+        "insights": "Insights",
+        "reports": "Reports",
+        "exportReport": "Export Report",
+        "dateRange": "Date Range",
+        "customRange": "Custom Range"
+    },
+    "notifications": {
+        "title": "Notifications",
+        "markAsRead": "Mark as Read",
+        "markAllAsRead": "Mark All as Read",
+        "newOrder": "New Order",
+        "orderShipped": "Order Shipped",
+        "orderDelivered": "Order Delivered",
+        "paymentReceived": "Payment Received",
+        "newMessage": "New Message",
+        "priceAlert": "Price Alert",
+        "systemUpdate": "System Update"
+    },
+    "schemes": {
+        "badge": "GOVERNMENT SCHEMES",
+        "title": "Oilseed Farmer Support Programs",
+        "subtitle": "Comprehensive government initiatives to boost oilseed production and farmer prosperity",
+        "budgetLabel": "Budget",
+        "durationLabel": "Duration",
+        "impact": "Impact",
+        "learnMore": "Learn More",
+        "nmeo": {
+            "title": "National Mission on Edible Oils – Oilseeds (NMEO-Oilseeds)",
+            "description": "A flagship central government mission to boost domestic oilseed production from 39 million tonnes (2022-23) to about 69.7 million tonnes by 2030-31.",
+            "budget": "₹10,103 crore",
+            "duration": "2024-25 to 2030-31",
+            "benefits": "Key Benefits",
+            "benefit1": "Access to high-yielding & high oil content seeds for rapeseed-mustard, groundnut, soybean, sunflower, sesame",
+            "benefit2": "Quality inputs, GAP training, and advisory services for farmers",
+            "benefit3": "Infrastructure build-up: seed hubs, storage units, and value chain clusters across districts",
+            "benefit4": "Promotes FPOs, cooperatives, and private sector partnerships for sustainable growth",
+            "target": "Helps reduce dependency on edible oil imports and increases farmers' profitability through improved yields and market access"
+        },
+        "freeSeeds": {
+            "title": "Free Oilseed Seeds & Input Support",
+            "description": "Under NMEO, farmers receive free climate-smart & improved oilseed seeds — soybean, mustard, sunflower, groundnut, and sesamum — to improve yields and productivity.",
+            "benefits": "Support Includes",
+            "benefit1": "Free distribution of high-quality, climate-resilient oilseed varieties",
+            "benefit2": "Micro-irrigation support, crop insurance coverage, and agri machinery access",
+            "benefit3": "Beekeeping promotion and credit facilitation for farming operations",
+            "target": "Direct aid to farmers to reduce cultivation costs and boost oilseed outputs significantly"
+        },
+        "pmfby": {
+            "title": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+            "description": "Comprehensive crop insurance scheme covering food and oilseeds, protecting farmers against crop losses due to natural calamities, droughts, pests, and diseases.",
+            "benefits": "Insurance Coverage",
+            "benefit1": "Protection against crop losses from natural calamities, droughts, and pest attacks",
+            "benefit2": "Stabilizes farm income and encourages sustained oilseed production",
+            "benefit3": "Quick claim settlement process with minimal documentation",
+            "target": "Protects oilseed farmers from unpredictable weather risks and ensures compensation for crop failure"
+        },
+        "msp": {
+            "title": "Price Support & Procurement (PM-AASHA)",
+            "description": "Government ensures minimum support price (MSP) and procurement of oilseeds to guarantee farmers get fair returns for their produce.",
+            "budget": "₹15,000+ crore procurement plan",
+            "benefits": "Price Protection",
+            "benefit1": "Guaranteed minimum support price (MSP) for major oilseed crops",
+            "benefit2": "Active procurement in states like Maharashtra, Telangana, Odisha, and Madhya Pradesh",
+            "benefit3": "Market intervention to prevent price crashes and distress selling",
+            "target": "Prevents distress selling and ensures better price realization for farmers throughout the year"
+        },
+        "state": {
+            "title": "State Government Support Programs",
+            "description": "Farmers benefit from state-level oilseed support initiatives including free seed minikit distribution, direct investment support, and price compensation schemes.",
+            "benefits": "State-Level Benefits",
+            "benefit1": "Free oilseed seed minikit distribution (e.g., UP) for toria, sesame, soybean, and groundnut",
+            "benefit2": "Direct farmer investment support like Rythu Bandhu (Telangana) for cultivation expenses",
+            "benefit3": "Price compensation schemes like Bhavantar Bhugtan Yojana (MP) protecting oilseed crop prices",
+            "target": "Helps farmers access improved seeds without upfront costs and provides financial security through state support"
+        },
+        "cta": {
+            "title": "Ready to Benefit from Government Schemes?",
+            "description": "Join thousands of farmers already benefiting from these government programs. Get started today and transform your oilseed farming business.",
+            "applyNow": "Apply for Schemes",
+            "visitPortal": "Visit Government Portal"
+        }
+    },
+    "footer": {
+        "aboutUs": "About Us",
+        "contactUs": "Contact Us",
+        "termsOfService": "Terms of Service",
+        "privacyPolicy": "Privacy Policy",
+        "helpCenter": "Help Center",
+        "faq": "FAQ",
+        "copyright": "© 2025 KRISHI-SETU. Empowering farmers with blockchain and AI."
+    },
+    "sidebar": {
+        "buyerPortal": "Buyer Portal",
+        "fpoPortal": "FPO Portal",
+        "smartMarketplace": "Smart Marketplace",
+        "buyerMenu": "Buyer Menu",
+        "fpoMenu": "FPO Menu",
+        "platformMenu": "Platform",
+        "marketAlert": "Market Alert",
+        "marketAlertMessage": "Soybean prices down 5.9% - Good time to buy!",
+        "quickStats": "Quick Stats"
+    },
+    "settingsPage": {
+        "subtitle": "Manage your account preferences and settings",
+        "profileCard": {
+            "title": "Profile Information",
+            "description": "Update your personal information from MongoDB",
+            "fullName": "Full Name",
+            "email": "Email",
+            "emailNote": "Email cannot be changed",
+            "phoneNumber": "Phone Number",
+            "location": "Location",
+            "saving": "Saving...",
+            "saveChanges": "Save Changes"
+        },
+        "accountCard": {
+            "title": "Account Details",
+            "description": "Read-only information from your account",
+            "userId": "User ID",
+            "role": "Role",
+            "memberSince": "Member Since",
+            "notAvailable": "N/A"
+        },
+        "notificationsCard": {
+            "title": "Notification Preferences",
+            "email": "Email Notifications",
+            "emailDesc": "Receive updates via email",
+            "push": "Push Notifications",
+            "pushDesc": "Receive push notifications",
+            "save": "Save Preferences"
+        },
+        "securityCard": {
+            "title": "Security Settings",
+            "currentPassword": "Current Password",
+            "newPassword": "New Password",
+            "twoFactor": "Two-Factor Authentication",
+            "twoFactorDesc": "Add an extra layer of security",
+            "update": "Update Security"
+        },
+        "appearanceCard": {
+            "title": "Appearance & Language",
+            "theme": "Theme",
+            "system": "System",
+            "language": "Language",
+            "selectedLanguageLabel": "Selected language",
+            "save": "Save Preferences"
+        },
+        "toasts": {
+            "loadErrorTitle": "Error",
+            "loadErrorDesc": "Failed to load user data",
+            "profileUpdatedTitle": "Profile Updated",
+            "profileUpdatedDesc": "Your profile has been updated successfully",
+            "profileUpdateErrorTitle": "Error",
+            "profileUpdateErrorDesc": "Failed to update profile",
+            "notificationsSavedTitle": "Preferences Saved",
+            "notificationsSavedDesc": "Your notification preferences have been updated",
+            "securitySavedTitle": "Security Updated",
+            "securitySavedDesc": "Your security settings have been updated",
+            "appearanceSavedTitle": "Preferences Updated",
+            "appearanceSavedDesc": "Language and appearance preferences saved"
+        }
+    },
+    "professionalMap": {
+        "title": "India Oilseed Production Map",
+        "subtitle": "Interactive map showcasing India's oilseed production with patriotic tricolor theme - Click on states to explore detailed agricultural insights",
+        "stats": {
+            "totalProduction": "Total Production",
+            "millionTonnes": "Million tonnes annually",
+            "marketValue": "Market Value",
+            "industryValue": "Total industry value",
+            "farmers": "Farmers",
+            "engagedFarmers": "Engaged farmers",
+            "growthRate": "Growth Rate",
+            "yoy": "Year-on-year"
+        },
+        "mapCard": {
+            "title": "India's oilseed production",
+            "description": "Experience India's oilseed production data through the colors of our nation - Click on highlighted states to discover agricultural insights"
+        },
+        "loading": "Loading map...",
+        "error": {
+            "title": "Map Library Not Found",
+            "stepsTitle": "To fix this:",
+            "step1": "Obtain the SimpleMaps India map library file (countrymap.js or india_map.js)",
+            "step2": "Place the library file in one of these locations:",
+            "step3": "Note: mapdata.js is already in place at",
+            "step4": "Refresh the page after adding the library file"
+        },
+        "stateCard": {
+            "select": "Select a State",
+            "rank": "Production Rank #{{rank}} in India",
+            "helper": "Click on a highlighted state to view detailed statistics",
+            "annualProduction": "Annual Production",
+            "annualHelper": "Oilseed production per year",
+            "marketValue": "Market Value",
+            "marketHelper": "Total market value in crores",
+            "farmers": "Farmers Engaged",
+            "farmersHelper": "Farmers in oilseed cultivation",
+            "products": "Main Products",
+            "emptyTitle": "No state selected",
+            "emptyHelper": "Click on any highlighted state on the map to view comprehensive production data and market insights"
+        },
+        "topProducers": "Top Oilseed Producing States",
+        "tonnesPerYear": "tonnes/year"
+    },
+    "authPage": {
+        "header": {
+            "subtitle": "Complete Agricultural Supply Chain Solution"
+        },
+        "roleSelect": {
+            "title": "Choose Your Role",
+            "description": "Select how you want to participate in the agricultural ecosystem"
+        },
+        "roles": {
+            "farmer": {
+                "title": "Farmer",
+                "description": "Sell your agricultural products directly"
+            },
+            "fpo": {
+                "title": "FPO",
+                "description": "Farmer Producer Organization - Manage collective farming operations"
+            },
+            "processor": {
+                "title": "Processor",
+                "description": "Process and distribute agricultural goods"
+            },
+            "buyer": {
+                "title": "Buyer",
+                "description": "Purchase quality agricultural products"
+            }
+        },
+        "toasts": {
+            "roleRequired": {
+                "title": "Role Required",
+                "description": "Please select your role to continue"
+            },
+            "basicInfo": {
+                "title": "Basic Information Required",
+                "description": "Please fill in all basic fields"
+            },
+            "farmerInfo": {
+                "title": "{{role}} Information Required",
+                "description": "Please provide farm size, harvest types, and experience"
+            },
+            "processorInfo": {
+                "title": "Processor Information Required",
+                "description": "Please provide business type and company size"
+            },
+            "signupSuccess": {
+                "title": "Account Created!",
+                "description": "Welcome to KRISHI-SETU as a {{role}}"
+            },
+            "signinSuccess": {
+                "title": "Welcome Back!",
+                "description": "Successfully signed in as {{role}}"
+            }
+        },
+        "roleSummary": {
+            "title": "{{role}} Dashboard",
+            "accessTitle": "You'll have access to:",
+            "changeRole": "Change Role",
+            "farmer": {
+                "item1": "Product listing and management",
+                "item2": "Direct buyer connections",
+                "item3": "Real-time price tracking",
+                "item4": "Quality certification"
+            },
+            "fpo": {
+                "item1": "Collective product listing and management",
+                "item2": "Member farmer coordination",
+                "item3": "Bulk sales and aggregation",
+                "item4": "FPO-specific analytics and reporting"
+            },
+            "processor": {
+                "item1": "Raw material sourcing",
+                "item2": "Production planning",
+                "item3": "Quality control tools",
+                "item4": "Supply chain management"
+            },
+            "buyer": {
+                "item1": "Supplier discovery",
+                "item2": "Quality assurance",
+                "item3": "Price comparison tools",
+                "item4": "Order tracking"
+            }
+        },
+        "form": {
+            "titleSignup": "Create Account",
+            "titleSignin": "Sign In",
+            "subtitleSignup": "Join the agricultural revolution today",
+            "subtitleSignin": "Welcome back to your dashboard",
+            "fullName": "Full Name",
+            "fullNamePlaceholder": "Enter your full name",
+            "emailPlaceholder": "Enter your email",
+            "passwordPlaceholder": "Create a password",
+            "phone": "Phone Number",
+            "phonePlaceholder": "Enter your phone number",
+            "location": "Location",
+            "locationPlaceholder": "Enter your location",
+            "farmSize": "Farm Size",
+            "farmSizePlaceholder": "Farm size",
+            "farmSizeUnit": "Unit",
+            "unitPlaceholder": "Select unit",
+            "unit": {
+                "acres": "Acres",
+                "hectares": "Hectares",
+                "bigha": "Bigha"
+            },
+            "harvest": "What do you harvest? (comma separated)",
+            "harvestPlaceholder": "e.g., Wheat, Rice, Mustard, Sunflower",
+            "experience": "Farming Experience (years)",
+            "experiencePlaceholder": "Years of experience",
+            "businessType": "Business Type",
+            "businessTypePlaceholder": "Select business type",
+            "businessTypeOption": {
+                "oilExtraction": "Oil Extraction",
+                "foodProcessing": "Food Processing",
+                "grainMilling": "Grain Milling",
+                "other": "Other"
+            },
+            "companySize": "Company Size",
+            "companySizePlaceholder": "Select company size",
+            "companySizeOption": {
+                "small": "Small (1-10 employees)",
+                "medium": "Medium (11-50 employees)",
+                "large": "Large (50+ employees)"
+            },
+            "loadingSignup": "Creating Account...",
+            "loadingSignin": "Signing In...",
+            "submitSignup": "Create Account",
+            "submitSignin": "Sign In"
+        }
+    }
+}
